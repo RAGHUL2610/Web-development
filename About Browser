@@ -1,0 +1,20 @@
+A Web browser refers to the client browser
+ 
+ URL-Uniform Resource Locator 
+ URL contains several parts
+ 
+ 1)Scheme(protocol)
+ 2)Server or Domain name
+ 3)Port (default :80)
+ 4)Path to source
+ 5)Query String(optional)
+ 6)Fragment id(optional)
+ 
+ EXAMPLE- https://www.host.com/tutorails/welcome-to-web
+     
+      Here,
+      
+      https://  = PROTOCOL
+          www.  = SUBDOMAIN
+      host.com  = DOAMIN NAME
+     tutorials/welcome-to-..=PATH/PAGE
