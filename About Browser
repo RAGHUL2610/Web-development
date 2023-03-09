@@ -18,3 +18,20 @@ A Web browser refers to the client browser
           www.  = SUBDOMAIN
       host.com  = DOAMIN NAME
      tutorials/welcome-to-..=PATH/PAGE
+
+
+URL PROCESS
+  
+1)Browser will issue http command called GET.
+2)GET search for the MACHINE in DOMAIN NAME in the network.
+3)Machine will receive request and then it will take the PATH part of the domain.
+4)It try's to find what web browser is asking.When it finds it return to the browser.
+5).Browser accepts the file and starts to process it.
+
+
+HTML---> Content,Structure of web page and links to other web pages(URL).
+MEDIA--->Content
+STYLESHEET-->Appearance
+JAVASCRIPT-->Behaviour
+
+BROWSER--> fetches linked resource,builds documnent,renders documment,publishes DOM.
