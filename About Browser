@@ -35,3 +35,49 @@ STYLESHEET-->Appearance
 JAVASCRIPT-->Behaviour
 
 BROWSER--> fetches linked resource,builds documnent,renders documment,publishes DOM.
+
+
+
+
+DOCUMENT OBJECT MODEL
+
+>>>DOM represents the content of xml or html document as tree structure.
+>>>So it is easy to read,update the content.
+>>>DOM does conversion to tree internally in memory.
+>>>It is a programming API.
+>>>It is the Object Oriented Representation of the Web page.
+
+
+DOCUMENT--->file
+OBJECT--->tags and elements of file
+MODEL--->Layout structure
+
+
+HTML text
+ <books>
+  <book>
+    <author>DOM</author>
+  </book>
+  <pubinfo>
+    <publisher>matt</publisher>
+  </pubinfo>  
+</books>
+
+Tree Structure
+ HTML
+  HEAD
+   BODY
+    BOOKS
+      #text:
+      BOOK
+       #text:
+        AUTHOR
+          #text: DOM
+         #text:
+       #text:
+      PUBINFO
+        #text:
+       PUBLISHER
+         #text: matt 
+        #text:
+       #text: 
